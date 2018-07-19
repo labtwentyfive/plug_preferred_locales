@@ -1,5 +1,7 @@
 # PlugPreferredLocales
 
+[![Build Status](https://travis-ci.org/labtwentyfive/plug_preferred_locales.svg?branch=master)](https://travis-ci.org/labtwentyfive/plug_preferred_locales)
+
 Parses the `accept-language` header and sets the key
 `:plug_preferred_locales` of `%Plug.Conn{}` to a list of preferred locales.
 

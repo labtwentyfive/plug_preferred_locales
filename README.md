@@ -22,12 +22,12 @@ defmodule MyappWeb.Router do
 
   pipeline :browser do
     # ....
-    plug(PlugPreferredLanguages, ignore_area: true)
+    plug(PlugPreferredLocales, ignore_area: true)
     plug(:set_language)
   end
 
   def set_language(conn, _opts) do
-    preferred_languages = MapSet.new(conn.private.plug_preferred_languages)
+    preferred_languages = MapSet.new(conn.private.plug_preferred_locales)
 
     available_languages =
       MyappWeb.Gettext

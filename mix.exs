@@ -44,8 +44,8 @@ defmodule PlugPreferredLocales.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:plug, "~> 1.5", optional: true},
-      {:ex_doc, "~> 0.18", only: :dev}
+      {:plug, "~> 1.7", optional: true},
+      {:ex_doc, "~> 0.19", only: :dev}
     ]
   end
 end

@@ -28,7 +28,7 @@ defmodule PlugPreferredLocales.MixProject do
     [
       licenses: ["MIT"],
       links: %{
-        "GitHub" => "https://github.com/labtwentyfive/plug_preferred_languages",
+        "GitHub" => "https://github.com/labtwentyfive/plug_preferred_locales",
         "lab25" => "https://www.lab25.de"
       }
     ]
